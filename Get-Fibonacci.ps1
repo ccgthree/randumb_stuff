@@ -1,5 +1,5 @@
 param(
-    [Parameter()][int]$Limit
+    [Parameter(Mandatory)][int]$Limit
 )
 
 $increment = 0
